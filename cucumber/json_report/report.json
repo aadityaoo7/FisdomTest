@@ -1,0 +1,390 @@
+[
+  {
+    "uri": "features/feature/booking_update.feature",
+    "id": "booking-feature-verification-along-with-update-feature",
+    "keyword": "Feature",
+    "name": "Booking feature verification along with update feature",
+    "description": "",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@test",
+        "line": 1
+      },
+      {
+        "name": "@booking",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "booking-feature-verification-along-with-update-feature;verify-booking-feature;;2",
+        "keyword": "Scenario Outline",
+        "name": "verify booking feature",
+        "description": "",
+        "line": 13,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          },
+          {
+            "name": "@booking",
+            "line": 2
+          },
+          {
+            "name": "@Fisdom_auto_TC01",
+            "line": 6
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/common/hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1333107000
+            }
+          },
+          {
+            "match": {
+              "location": "features/common/hooks.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15900
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "i create booking for \"Aaditya\" \"mahajan\" \"10000\" \"true\" \"2020-05-23\" \"2020-06-23\" \"dinner\"",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1218923100
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i am verifying new booking details using booking_payload and booking_response",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3189200
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-feature-verification-along-with-update-feature;verify-booking-update-feature---complete-update;;2",
+        "keyword": "Scenario Outline",
+        "name": "verify booking update feature - complete update",
+        "description": "",
+        "line": 24,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          },
+          {
+            "name": "@booking",
+            "line": 2
+          },
+          {
+            "name": "@Fisdom_auto_TC02",
+            "line": 15
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/common/hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1352255600
+            }
+          },
+          {
+            "match": {
+              "location": "features/common/hooks.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51300
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "i create booking for \"Aaditya\" \"mahajan\" \"10000\" \"true\" \"2020-05-23\" \"2020-06-23\" \"dinner\"",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1277539600
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i am verifying new booking details using booking_payload and booking_response",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2827100
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "i am updating complete booking details with new details \"Sunil\" \"Lulla\" \"9999\" \"false\" \"2020-05-20\" \"2020-05-23\" \"Lunch\"",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1312637100
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i am verifying updated booking details with \"complete\" new details",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31788500
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-feature-verification-along-with-update-feature;verify-booking-update-feature---partial-update;;2",
+        "keyword": "Scenario Outline",
+        "name": "verify booking update feature - partial update",
+        "description": "",
+        "line": 36,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          },
+          {
+            "name": "@booking",
+            "line": 2
+          },
+          {
+            "name": "@Fisdom_auto_TC03",
+            "line": 26
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/common/hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2489820000
+            }
+          },
+          {
+            "match": {
+              "location": "features/common/hooks.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51300
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "i create booking for \"Aaditya\" \"mahajan\" \"10000\" \"true\" \"2020-05-23\" \"2020-06-23\" \"dinner\"",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1348151700
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i am verifying new booking details using booking_payload and booking_response",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2975900
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "i am updating partial booking details with new details \"firstname\" \"Rahul\"",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1318572000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "i am updating partial booking details with new details \"depositpaid\" \"false\"",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1319884000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i am verifying updated booking details with \"partial\" new details",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37743400
+            }
+          }
+        ]
+      },
+      {
+        "id": "booking-feature-verification-along-with-update-feature;verify-booking-update-feature---partial-update;;3",
+        "keyword": "Scenario Outline",
+        "name": "verify booking update feature - partial update",
+        "description": "",
+        "line": 37,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          },
+          {
+            "name": "@booking",
+            "line": 2
+          },
+          {
+            "name": "@Fisdom_auto_TC03",
+            "line": 26
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/common/hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1306374700
+            }
+          },
+          {
+            "match": {
+              "location": "features/common/hooks.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "i create booking for \"Aaditya\" \"mahajan\" \"10000\" \"true\" \"2020-05-23\" \"2020-06-23\" \"dinner\"",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1250079800
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i am verifying new booking details using booking_payload and booking_response",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14544000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "i am updating partial booking details with new details \"firstname\" \"Sam\"",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1277951600
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "i am updating partial booking details with new details \"lastname\" \"Lalwani\"",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1217721500
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i am verifying updated booking details with \"partial\" new details",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/booking_update_step.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36412400
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

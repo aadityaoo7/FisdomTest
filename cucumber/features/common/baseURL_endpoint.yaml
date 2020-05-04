@@ -1,0 +1,7 @@
+#created on 03-05-2020 by aaditya mahajan
+Fisdom:
+  base_url: https://restful-booker.herokuapp.com
+  auth: /auth
+  booking:
+    do_booking: /booking
+    crud_booking: /booking/:booking_id
